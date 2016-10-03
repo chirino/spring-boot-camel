@@ -50,6 +50,18 @@
             <updatePolicy>never</updatePolicy>
           </releases>
         </repository>
+        <repository>
+          <id>redhat.ea</id>
+          <name>Red Hat EA Repository</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </repository>
       </repositories>
 
       <pluginRepositories>
@@ -69,6 +81,18 @@
           <id>redhat.ga</id>
           <name>Red Hat General Availability Repository</name>
           <url>https://maven.repository.redhat.com/ga</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+        </pluginRepository>
+        <pluginRepository>
+          <id>redhat.ea</id>
+          <name>Red Hat EA Repository</name>
+          <url>http://repository.jboss.org/nexus/content/groups/ea</url>
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
